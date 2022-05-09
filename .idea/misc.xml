@@ -10,7 +10,10 @@
         <entry key="..\:/Study/Ken3/HKII/LapTrinhDiDong/MyDogApp/app/src/main/res/drawable/heart_sad.xml" value="0.101" />
         <entry key="..\:/Study/Ken3/HKII/LapTrinhDiDong/MyDogApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.101" />
         <entry key="..\:/Study/Ken3/HKII/LapTrinhDiDong/MyDogApp/app/src/main/res/layout/activity_main.xml" value="0.18229166666666666" />
-        <entry key="..\:/Study/Ken3/HKII/LapTrinhDiDong/MyDogApp/app/src/main/res/layout/dog_item.xml" value="0.18229166666666666" />
+        <entry key="..\:/Study/Ken3/HKII/LapTrinhDiDong/MyDogApp/app/src/main/res/layout/dog_item.xml" value="0.1" />
+        <entry key="..\:/Study/Ken3/HKII/LapTrinhDiDong/MyDogApp/app/src/main/res/layout/fragment_detail.xml" value="0.1" />
+        <entry key="..\:/Study/Ken3/HKII/LapTrinhDiDong/MyDogApp/app/src/main/res/layout/fragment_list.xml" value="0.13072916666666667" />
+        <entry key="..\:/Study/Ken3/HKII/LapTrinhDiDong/MyDogApp/app/src/main/res/menu/search.xml" value="0.1" />
       </map>
     </option>
   </component>
