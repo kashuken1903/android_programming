@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateNewContact"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#CFCFCF"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:id="@+id/iv_ava"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_baseline_person_300"
+            tools:ignore="ContentDescription">
+        </ImageView>
+
+        <ImageButton
+            android:id="@+id/ib_photo"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/ic_baseline_photo_camera_24"
+            tools:ignore="ContentDescription">
+        </ImageButton>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:padding="10dp"
+            android:src="@drawable/ic_baseline_person_24x"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            tools:ignore="ContentDescription">
+
+        </ImageView>
+        <EditText
+            android:id="@+id/et_firstname"
+            android:layout_margin="5dp"
+            android:hint="First name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText,TextFields"
+            android:autofillHints="">
+
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:padding="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            tools:ignore="ContentDescription">
+
+        </ImageView>
+        <EditText
+            android:id="@+id/et_lastname"
+            android:layout_margin="5dp"
+            android:hint="Last name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText,TextFields"
+            android:autofillHints="">
+
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:padding="10dp"
+            android:src="@drawable/ic_baseline_phone_24"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            tools:ignore="ContentDescription">
+
+        </ImageView>
+        <EditText
+            android:id="@+id/et_phone"
+            android:layout_margin="5dp"
+            android:hint="Phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText,TextFields"
+            android:autofillHints="">
+
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:padding="10dp"
+            android:src="@drawable/ic_baseline_email_24"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            tools:ignore="ContentDescription">
+
+        </ImageView>
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_margin="5dp"
+            android:hint="Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText,TextFields"
+            android:autofillHints="">
+
+        </EditText>
+    </LinearLayout>
+
+</LinearLayout>
